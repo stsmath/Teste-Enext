@@ -1,0 +1,713 @@
+body{
+    margin: 0;
+}
+#pai{
+    width: 100%;
+}
+#container{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.topo{
+    width: 95%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+
+/*Menu responsivo*/
+.wrap-menu{
+    display: none;
+}
+/*Acaba aqui*/
+
+
+
+
+
+
+
+/* Editando a parte do Merlins*/
+.merlins{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100px;
+    font-size: 20px;
+    color: #523468;
+}
+.merlins span{
+    font-size: 35px;
+    color: #ee0505;
+}
+/* Acaba aqui*/
+
+
+
+
+
+
+
+/* Editando a parte da Busca*/
+.busca{
+    border: 1px solid;
+    width: 25%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center; 
+    border:solid 1px;
+    border-radius:5px;
+    padding-left: 10px;
+}
+#txtBusca{
+    display: inline;
+    background-color:transparent;
+    font-size:18px;
+    padding-left: 5px;
+    border:none;
+    height: 42px;
+    width: 260px;
+}
+/* Acaba aqui*/
+
+
+
+
+
+
+/* Editando a parte do Carrinho*/
+.bag{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 100px;
+    font-size: 25px;    
+    color: #ee0505;
+}
+.bag-free{
+
+    font-size: 25px;
+}
+.bag-free span{
+    font-size:20px;
+}
+.bag-1 span{
+    color:grey;
+}
+/* Acaba aqui*/
+
+
+
+
+
+/*Editando todo o menu*/
+#menu{
+    width: 100%;
+    height: 100px;
+    background-color: #523468;
+    display: flex;
+    align-items: center;
+}
+
+.imenu{
+    width: 70%;
+    height: auto;
+}
+
+.login{
+    width: 20%;
+    height: auto;
+}
+
+.list-imenu, .list-login{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3em;
+    color: white;
+    font-style: italic;   
+}
+.list-login-or{ /*apenas o texto "or"  dos login*/
+    color: #a8a5d0;
+}
+
+.list-menu-efeito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 70px;
+    color:#422a53;
+    border-radius: 10px;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+.list-menu-efeito:hover{
+    background-color: #422a53;
+    color: white;
+
+}
+
+a:visited{ 
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+/*Acaba aqui*/
+
+
+
+/* Editando a parte dos potions */
+
+#potions{
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+.potions{
+    position: absolute;
+    top:40px;
+    left: 40px;
+    font-size: 1.4em;
+}
+.ipotions{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top:20%;
+}
+.iprodutos{
+    width: 30%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.iprodutos img{
+    width: 100%;
+    max-width: 300px;
+}
+.iprodutos-title{
+    margin: 0;
+}
+.iprodutos-title span{
+    color: #d83b1e;
+    font-weight: normal;
+}
+
+
+
+
+
+/* Editanto a parte do rodapé */
+
+#foot{
+    width: 100%;
+    height: 300px;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot-left{
+    width: 40%;
+    height: 200px;
+}
+
+.foot-right{
+    width: 40%;
+    height: 190px;
+    border-radius: 10px;
+    background-color:white;
+}
+
+
+
+
+
+/*Footer redes sociais*/
+
+.foot-text{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: #d83b1e;
+    font-size: 1.4em;
+    padding: 0;
+}
+
+.foot-icons{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    width:80%;
+}
+.foot-icons img{
+    width: 100%;
+    max-width: 80%;
+}
+.foot-text2{
+    font-size: 1.2em;
+    margin-left: 20px;
+}
+/*Acaba aqui*/
+
+
+
+
+
+/*Footer cadastro do Email*/
+.foot-text-right{
+    list-style: none;
+    font-size: 1.4em;
+    line-height: 1.9em;
+}
+.footer-email{
+    display: inline;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:42px;
+    width:300px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.botton-submit{
+    width: 20%;
+    height: 43px;
+    border-radius: 5px;
+    background: #d73a1e;
+    color:#FFF;
+    font-size: 15px;
+}
+
+/*Começando o Media*/
+
+
+
+/*Criando o modal*/
+
+.modal-container{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0, 0, 0, .5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container.mostrar{
+    display: flex;
+}
+
+.modal{
+    background: white;
+    width: 45%;
+    min-width: 500px;
+    height: 400px;
+    padding: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+@keyframes modal{
+    from{
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.mostrar .modal{
+    animation: modal .2s;
+
+}
+
+.fechar{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background: white;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.image-modal{
+    width: 100%;
+    min-width: 100px;;
+}
+
+.modal-list{
+    margin: 0px;
+    list-style: none;
+    width: 80%;
+    height: 425px;
+    padding: 0px;
+}
+
+.button-modal{
+    width: 60%;
+    height: 40px;
+    border-radius: 5px;
+    background: #d73a1e;
+    color:#FFF;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+
+/*Editando texto do modal*/
+.span-modal, .span-modal-preco{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.span-modal-preco{
+    color: #d83b1e;
+}
+
+
+
+/*Começando aqui o Responsivo*/
+
+@media (max-width: 800px) {
+#pai{
+    width: 100%;
+    }
+#container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.topo{
+        width: 95%;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+input{
+    outline: none;
+}
+
+#menu{
+    display: none;
+}
+
+.wrap-menu{
+    display: block;
+}
+
+*{
+    margin:0;
+    padding:0;
+    border:none;
+}
+ul, ol, li{
+    list-style:none;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    transform: translateY(-100%);
+    transition: transform 200ms linear;
+}
+
+.menu_open{
+    transform: translateY(0);
+}
+
+.menu-item{    
+    background-color: #523468;
+    padding: 20px 15px;
+    border-bottom: 1px solid #a376c4e6;
+}
+
+.menu-item-action{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.btnMenu{
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    background-size: contain;
+    background-position: center center;
+    text-indent: -9999px;
+    padding:20px 15px;
+}
+.btnMenu_open{
+    display: block;
+    background-image: url(../icons/menuzin.svg);
+}
+
+
+
+
+
+/* Editando a parte do Merlins*/
+.merlins{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 100px;
+    font-size: 15px;
+    color: #523468;
+}
+.merlins span{
+    font-size: 20px;
+    color: #ee0505;
+}
+/* Acaba aqui*/
+
+
+
+
+
+
+
+/* Editando a parte da Busca*/
+.busca{
+    border: 1px solid;
+    width: 25%;
+    height: 50px;
+    display: none;
+    justify-content: center;
+    align-items:center; 
+    border:solid 1px;
+    border-radius:5px;
+    padding-left: 10px;
+}
+#txtBusca{
+    display: inline;
+    background-color:transparent;
+    font-size:18px;
+    padding-left: 5px;
+    border:none;
+    height: 42px;
+    width: 260px;
+}
+/* Acaba aqui*/
+
+
+
+
+
+
+/* Editando a parte do Carrinho*/
+.bag{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 20%;
+    height: 100px;
+    font-size: 15px;    
+    color: #ee0505;
+}
+.bag-free{
+    display: none;
+    font-size: 20px;
+}
+.bag-free span{
+    font-size:20px;
+}
+.bag-1 span{
+    font-size: 15px;
+    color:grey;
+}
+/* Acaba aqui*/
+
+/* Editando a parte dos potions */
+
+#potions{
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.potions{
+    position: absolute;
+    top:40px;
+    left: 35%;
+    font-size: 1.4em;
+}
+.ipotions{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top:10%;
+}
+.iprodutos{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+.iprodutos img{
+    width: 100%;
+    max-width: 300px;
+}
+.iprodutos-title{
+    margin: 0;
+}
+.iprodutos-title span{
+    color: #d83b1e;
+    font-weight: normal;
+}
+
+
+
+
+/* Editanto a parte do rodapé */
+
+#foot{
+    width: 100%;
+    height: 250px;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.foot-left{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    padding-top: 20px;
+}
+
+.foot-right{
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 90%;
+    height: 100px;
+    background-color:white;
+    order: -1;
+}
+
+
+
+
+
+/*Footer redes sociais*/
+
+.foot-text{
+    display: none;
+    justify-content: space-around;
+    list-style: none;
+    color: #d83b1e;
+    font-size: 1.4em;
+    padding: 0;
+}
+
+.foot-icons{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    order: -1;
+    width:100%;
+    padding-bottom: 30px;
+}
+.foot-icons img{
+    width: 100%;
+    max-width: 60%;
+}
+.foot-text2{
+    font-size: 15px;
+    margin-left: 20px;
+    order:1;
+}
+/*Acaba aqui*/
+
+
+
+
+
+/*Footer cadastro do Email*/
+.foot-text-right{
+    list-style: none;
+    font-size: 12px;
+    line-height: 1.9em;
+    padding: 10px 10px;
+}
+.footer-email{
+    display: inline;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:13px;
+    border:none;
+    height:30px;
+    width:60%;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.botton-submit{
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    background: #d73a1e;
+    color:#FFF;
+    font-size: 13px;
+}
+
+
+
+}

@@ -1,0 +1,15 @@
+.btnMenu{
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    text-indent: -9999px;
+    padding:20px 15px;
+}
+.btnMenu_open{
+    display: block;
+    background-image: url(menuzin.svg);
+}
+
+.btnMenu_close{
+    background-image: url(menuzin.svg);
+}
